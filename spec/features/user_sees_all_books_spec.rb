@@ -19,5 +19,7 @@ describe 'user visits book index' do
 
     expect(page).to have_content(@book1.title)
     expect(page).to have_link(@book1.title)
+    expect(page).to have_content(@book2.title)
+    expect(page).to have_link(@book2.title)
   end
 end
