@@ -24,5 +24,19 @@ describe Book, type: :model do
       end
     end
 
+    describe '.lowest_rating' do
+      it 'should return the highest rating for the book' do
+
+        expect(@book.lowest_rating).to eq(1)
+      end
+    end
+
+    describe '.highest_rated_review' do
+      it 'should return the review with the highest rating' do
+
+        expect(@book.highest_rated_review).to eq(@review_1)
+      end
+    end
+
   end
 end
