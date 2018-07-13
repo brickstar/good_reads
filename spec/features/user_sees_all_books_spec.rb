@@ -17,6 +17,7 @@ describe 'user visits book index' do
 
     visit books_path
 
-    expect(page).to have_content(@book.title)
+    expect(page).to have_content(@book1.title)
+    expect(page).to have_link(@book1.title)
   end
 end

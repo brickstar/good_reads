@@ -1,6 +1,31 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/brickstar/turing/2module/good_reads/spec/features/user_sees_all_books_spec.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/brickstar/turing/2module/good_reads/app/models/book.rb": [
         1,
         1,
@@ -29,6 +54,10 @@
         1,
         1,
         null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/brickstar/turing/2module/good_reads/app/controllers/application_controller.rb": [
@@ -37,6 +66,6 @@
         null
       ]
     },
-    "timestamp": 1531498591
+    "timestamp": 1531499360
   }
 }

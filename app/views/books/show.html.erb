@@ -1,0 +1,5 @@
+<h1>Book: <%= @book.title %></h1>
+<% @book.reviews.each do |review| %>
+Reviewer: <%= review.user.name %>
+Review: <%= review.body %>
+<% end %>
