@@ -20,4 +20,19 @@ describe 'visits a book show page' do
     expect(page).to have_content(@user_2.name)
     expect(page).to have_content(@review_2.body)
   end
+
+  it 'should see a rating for each review' do
+
+    visit book_path(@book)
+
+    expect(page).to have_content(@review_1.rating)
+    expect(page).to have_content(@review_2.rating)
+  end
+
+  it 'should see an average rating for the book' do
+
+    visit book_path(@book)
+
+    expect(page).to have_content(@book.average_rating)
+  end
 end

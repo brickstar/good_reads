@@ -26,10 +26,35 @@
         null,
         null
       ],
+      "/Users/brickstar/turing/2module/good_reads/spec/models/book_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/brickstar/turing/2module/good_reads/app/models/book.rb": [
         1,
         1,
         1,
+        null,
+        1,
+        5,
+        null,
         null
       ],
       "/Users/brickstar/turing/2module/good_reads/app/models/application_record.rb": [
@@ -56,7 +81,7 @@
         null,
         null,
         1,
-        1,
+        3,
         null,
         null
       ],
@@ -66,6 +91,6 @@
         null
       ]
     },
-    "timestamp": 1531499360
+    "timestamp": 1531499661
   }
 }
