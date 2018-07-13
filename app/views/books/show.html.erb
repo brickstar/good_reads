@@ -3,6 +3,9 @@
 <p>Highest Reviewer: <%= @book.highest_rated_review.user.name %></p>
 <p>Highest Review: <%= @book.highest_rated_review.body %></p>
 <h3>Lowest Rating: <%= @book.lowest_rating %></h3>
+<p>Lowest Reviewer: <%= @book.lowest_rated_review.user.name %></p>
+<p>Lowest Review: <%= @book.lowest_rated_review.body %></p>
+
 
 <h2>Average Rating: <%= @book.average_rating %></h2>
 <% @book.reviews.each do |review| %>
