@@ -43,6 +43,14 @@ describe 'visits a book show page' do
     expect(page).to have_content("Highest Rating: #{@book.highest_rating}")
   end
 
+  it 'should see lowest rating' do
+
+    visit book_path(@book)
+
+    expect(page).to have_content("Lowest Rating: #{@book.lowest_rating}")
+  end
+
+
   it 'should see review text, name of reviewer under highest rating' do
 
     visit book_path(@book)
