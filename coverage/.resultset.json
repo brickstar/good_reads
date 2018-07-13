@@ -1,0 +1,42 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/brickstar/turing/2module/good_reads/app/models/book.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/good_reads/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/good_reads/app/models/review.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/good_reads/app/models/user.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/brickstar/turing/2module/good_reads/app/controllers/books_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/brickstar/turing/2module/good_reads/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1531498591
+  }
+}
