@@ -9,11 +9,20 @@ describe Book, type: :model do
       @review_1 = @book.reviews.create!(body: 'loved it', rating: 5, user_id: @user_1.id)
       @review_2 = @book.reviews.create!(body: 'hated it', rating: 1, user_id: @user_2.id)
     end
+
     describe '.average_rating' do
       it 'should return average rating for the book' do
 
         expect(@book.average_rating).to eq(3)
       end
     end
+
+    describe '.highest_rating' do
+      it 'should return the highest rating for the book' do
+
+        expect(@book.highest_rating).to eq(5)
+      end
+    end
+
   end
 end
